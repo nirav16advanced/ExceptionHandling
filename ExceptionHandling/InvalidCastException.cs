@@ -15,7 +15,7 @@ namespace ExceptionHandling
             try
             {
                 // Create character
-                char name = 'J';
+                char name = 'N';
 
                 // Try to cast character to boolean 
                 bool convertToBool = Convert.ToBoolean(name);
@@ -28,6 +28,8 @@ namespace ExceptionHandling
                 // Print Exception Message
                 Console.WriteLine(IcExc.Message);
             }
+            
+
         }
     }
 }
